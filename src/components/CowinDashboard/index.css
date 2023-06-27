@@ -1,0 +1,74 @@
+.app-container {
+  padding: 10px 0 20px 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #161625;
+}
+
+.cowin-dashboard-container {
+  width: 90%;
+  max-width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.website-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.co-win-brand-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+
+  color: #2cc6c6;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+.loading-container {
+  width: 100%;
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 400px;
+}
+
+.failure-view-text {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
